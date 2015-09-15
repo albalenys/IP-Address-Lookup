@@ -1,5 +1,4 @@
 $(document).ready(function(){
-
   $("button").on("click", function(){
     $("#info").empty();
     $("#progress-bar").append('loading' + '<div class="animated shake">...</div>')
