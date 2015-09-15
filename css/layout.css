@@ -1,0 +1,28 @@
+html {
+  text-align: center;
+  margin: auto;
+}
+
+body {
+  font-family: 'Special Elite', cursive;
+}
+
+main {
+  padding: 2em;
+  width: 50%;
+  background: #FFF0E0;
+  margin: auto;
+}
+
+h1, h2 {
+  font-family: 'Voltaire', sans-serif;
+}
+
+button {
+  background: #000;
+  padding: 0.5em;
+  border-radius: 0.3em;
+  font-size: 0.9em;
+  color: #FFF;
+  border: none;
+}
