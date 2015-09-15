@@ -1,6 +1,7 @@
 $(document).ready(function(){
 
   $("button").on("click", function(){
+    $("#info").empty();
     $("#progress-bar").append('loading...')
     $.getJSON('http://www.telize.com/geoip?callback=?', function(json) {
       $("#progress-bar").empty()
