@@ -1,9 +1,6 @@
 html {
   text-align: center;
   margin: auto;
-}
-
-body {
   font-family: 'Special Elite', cursive;
 }
 
@@ -14,8 +11,17 @@ main {
   margin: auto;
 }
 
+header {
+  margin: 4em 0;
+}
+
 h1, h2 {
   font-family: 'Voltaire', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #0099CC;
 }
 
 button {
@@ -25,4 +31,16 @@ button {
   font-size: 0.9em;
   color: #FFF;
   border: none;
+}
+
+button:hover {
+  background: #50575D;
+}
+
+#info {
+  font-family: 'Voltaire', sans-serif;
+}
+
+footer {
+  top: -1;
 }
