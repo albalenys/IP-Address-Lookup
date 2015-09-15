@@ -1,10 +1,13 @@
 $(document).ready(function(){
 
   $("button").on("click", function(){
+    $("#progress-bar").append('loading...')
     $.getJSON('http://www.telize.com/geoip?callback=?', function(json) {
-      $("main").append('The IP address is: ' + json.ip);
-      $("main").append('Latitude: ' + json.latitude);
-      $("main").append('Longitude: ' + json.longitude);
+      $("#progress-bar").empty()
+      $("main").append('The IP address is: ' + json.ip + "<br>");
+      $("main").append('Latitude: ' + json.latitude + "<br>");
+      $("main").append('Longitude: ' + json.longitude + "<br>");
     });
+
   });
 });
