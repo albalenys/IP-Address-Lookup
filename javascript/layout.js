@@ -1,4 +1,7 @@
 $(document).ready(function(){
+  $("header").load("_header.html");
+  $("footer").load("_footer.html");
+
   $("button").on("click", function(){
     $("#info").empty();
     $("#progress-bar").append('loading' + '<div class="animated shake">...</div>')
@@ -8,6 +11,5 @@ $(document).ready(function(){
       $("#info").append('Latitude: ' + json.latitude + "<br>");
       $("#info").append('Longitude: ' + json.longitude + "<br>");
     });
-
   });
 });
